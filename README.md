@@ -12,13 +12,19 @@ models (directory) | contains models trained for our projects
 ## Available Models
 model name | base model | accuracy | type | transcription level | description
 ---|---|---|---|---|---
-formelbuch_03.mlmodel | [Tridis v2](https://doi.org/10.5281/zenodo.13862096) (A. Torres Aguilar, V. Jolivet) | 98.8% | recognise | semi-diplomatic | developed for the [ReggFIII-formulary project](https://gitup.uni-potsdam.de/x_fskidzun_3043/formulary), trained for 37 epochs
-formelbuch_graphemic_01.mlmodel | Tridis v2 | 97,8% | recognise | graphemic | formulary project, trained for 46 epochs
+formelbuch_03.mlmodel | Tridis v2 | 98.8% | recognise | semi-diplomatic | trained for 37 epochs, lines: 2128, word tokens: 18217, chars: 110376
+formelbuch_graphemic_01.mlmodel | Tridis v2 | 97,8% | recognise | graphemic | trained for 46 epochs, lines: 2,177, word tokens: 18,626, chars: 113,491
 tridis_reggfr2.mlmodel | Tridis v2 | 92% | recognise | semi-diplomatic | developed for transcribing charters of Emperor Frederik III.
 formelbuch_v0.mlmodel | tridis_regfr | 92.2% | recognise | semi-diplomatic | fromulary project
 tridis_regfr.mlmodel | Tridis v2 | 92.6% | recognise | semi-diplomatic | charter transcriptions
 Tridis_v2_Regg_FIII_3.mlmodel | Tridis v2 | 94.9 | recognise | semi-diplomatic | charter transcriptions
-ubma_segment_regg_f_iii_v3.mlmodel | [ubma_segmentation](https://github.com/JKamlah/ubma-segmentation-ocr-model.git) (J. Kamlah) | 70.7% | segment | -- | --
+ubma_segment_regg_f_iii_v3.mlmodel | ubma_segmentation | 70.7% | segment | -- | --
+
+## References
+
+[Tridis v2](https://doi.org/10.5281/zenodo.13862096) (A. Torres Aguilar, V. Jolivet)
+
+[ubma_segmentation](https://github.com/JKamlah/ubma-segmentation-ocr-model.git) (J. Kamlah)
 
 ## License
 The contents of this repository are licensed under the CC BY 4.0 license.

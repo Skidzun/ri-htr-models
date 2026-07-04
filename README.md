@@ -6,14 +6,15 @@ The contents of this repository are provided by the [*Regesta Imperii- Regesta o
 ## Contents
 file name | description
 --- | ---
-transcription-rules.md | transcription rules for the Regg.F.III HTR projects at the BBAW
+transcription-rules.md | transcription rules for the Regg.F.III HTR projects at the BBAW (old)
 models (directory) | contains models trained for our projects
 
 ## Available Models
 model name | base model | accuracy | type | transcription level | description
 ---|---|---|---|---|---
-formelbuch_03.mlmodel | Tridis v2 | 98.8% | recognise | allographetic | trained for 37 epochs, lines: 2128, word tokens: 18217, chars: 110376
-formelbuch_graphemic_01.mlmodel | Tridis v2 | 97,8% | recognise | graphemic | trained for 46 epochs, lines: 2,177, word tokens: 18,626, chars: 113,491
+reg-fiii-formulary | Tridis v2 | 98.4% | recognise | allographetic | trained for 32 epochs, on [Diplomatic dataset v2]()
+formelbuch_03.mlmodel | Tridis v2 | 98.8% | recognise | allographetic | trained for 37 epochs, on [Diplomatic dataset](https://zenodo.org/records/18377766)
+formelbuch_graphemic_01.mlmodel | Tridis v2 | 97.8% | recognise | graphemic | trained for 46 epochs, on [Graphemic dataset](https://zenodo.org/records/18441031)
 tridis_reggfr2.mlmodel | Tridis v2 | 92% | recognise | allographetic | developed for transcribing charters of Emperor Frederik III.
 formelbuch_v0.mlmodel | tridis_regfr | 92.2% | recognise | allographetic | fromulary project
 tridis_regfr.mlmodel | Tridis v2 | 92.6% | recognise | allographetic | charter transcriptions
